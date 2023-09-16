@@ -53,3 +53,13 @@ Cílem je mít PCB na řízení stejnosměrných motorů. Deska je založena na 
 
 ## Bonus
 Pokud si troufáš (i s velkým procesorem) vlézt se do LX-16A nebo https://www.amazon.com/DSSERVO-DS3225MG-Waterproof-Digital-Airplane/dp/B09SB8RMTT, tak do toho. Veveho 5mm montážní otvory dáme na rámeček panelu.
+
+## Feedback iter 1.0
+ - zelena/zluta ledka vyuzivaji PWM - bylo by fajn je dat na timer
+    - je ale potreba at to striktne _neni_ timer co se pouziva na hmustek nebo quad encoders
+ - chceme mit moznost merit _napeti_ napajeciho vstupu do serva (VIN)
+    - je to prakticka informace
+    - chci schopnost na "voltage cutoff" - moc nizke vstupni napeti - servo vypina motor
+ - na predchozi iteraci byl jeden timer sezrany jako "vnitrni" timer pro spravne poolovani ADC
+    - je mozne ze H5 bude delat to co chci i bez toho
+    - nicmene bych to prelozil na "je potreba at je aspon jeden timer co jde provazat s ADC volny"
