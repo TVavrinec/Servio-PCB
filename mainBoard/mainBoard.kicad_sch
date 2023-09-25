@@ -332,6 +332,18 @@
     (pin "1" (uuid 222106eb-b85b-4ed4-8505-d60d5260a129))
   )
 
+  (sheet (at 203.2 63.5) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 007b5876-baf1-4b85-a507-5fa12bfe2ac5)
+    (property "Sheet name" "DRV" (id 0) (at 203.2 62.7884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "drv.kicad_sch" (id 1) (at 203.2 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 63.5 38.1) (size 25.4 7.62) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -400,6 +412,7 @@
     (path "/" (page "1"))
     (path "/64dbc0d3-4eed-460b-93d3-a846dd72318b" (page "2"))
     (path "/b14c8b1b-493a-4a02-90ea-b228e228c2ae" (page "3"))
+    (path "/007b5876-baf1-4b85-a507-5fa12bfe2ac5" (page "4"))
   )
 
   (symbol_instances
@@ -415,6 +428,9 @@
     (path "/b14c8b1b-493a-4a02-90ea-b228e228c2ae/01f2d2b6-5ae4-443d-9640-dae587db932b"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/007b5876-baf1-4b85-a507-5fa12bfe2ac5/0d52366c-5198-49dc-a226-0f46d492d233"
+      (reference "C?") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/b14c8b1b-493a-4a02-90ea-b228e228c2ae/1d544ee4-261a-4a09-b586-b3ed4dcf6574"
       (reference "C?") (unit 1) (value "2u2") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -426,6 +442,9 @@
     )
     (path "/64dbc0d3-4eed-460b-93d3-a846dd72318b/2ae71f77-4ba2-42fa-bcee-7f3f15bdd4b7"
       (reference "C?") (unit 1) (value "1u") (footprint "Inductor_SMD:L_0805_2012Metric")
+    )
+    (path "/007b5876-baf1-4b85-a507-5fa12bfe2ac5/3526c070-dfbf-4d9d-8530-a1ed7705375f"
+      (reference "C?") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_2220_5650Metric")
     )
     (path "/b14c8b1b-493a-4a02-90ea-b228e228c2ae/5f21e47f-1776-439c-a4bd-dddc237b4ce9"
       (reference "C?") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -448,6 +467,12 @@
     (path "/64dbc0d3-4eed-460b-93d3-a846dd72318b/dbf8fa34-c2d0-4fcd-b2a2-9b7e24fa7a18"
       (reference "C?") (unit 1) (value "1u") (footprint "Inductor_SMD:L_0805_2012Metric")
     )
+    (path "/007b5876-baf1-4b85-a507-5fa12bfe2ac5/31ff19c9-8a05-4d75-9c75-1f35cf368e66"
+      (reference "J?") (unit 1) (value "Conn_01x01") (footprint "")
+    )
+    (path "/007b5876-baf1-4b85-a507-5fa12bfe2ac5/39245b7c-706c-4904-890f-add57fdfda2c"
+      (reference "J?") (unit 1) (value "Conn_01x01") (footprint "")
+    )
     (path "/4709a3ec-d1a9-46f6-9b20-447e28f2ef2a"
       (reference "J?") (unit 1) (value "Conn_01x07") (footprint "")
     )
@@ -457,11 +482,17 @@
     (path "/64dbc0d3-4eed-460b-93d3-a846dd72318b/41b5d091-b882-4b10-98b8-1cbb89c52c92"
       (reference "L?") (unit 1) (value "33u") (footprint "Inductor_SMD:L_1008_2520Metric")
     )
+    (path "/007b5876-baf1-4b85-a507-5fa12bfe2ac5/2d9a62f4-f6de-43ae-a6ea-13aef4f22444"
+      (reference "R?") (unit 1) (value "1k") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/64dbc0d3-4eed-460b-93d3-a846dd72318b/258dde30-2273-432d-9899-bc1f39124052"
       (reference "U?") (unit 1) (value "MAX15062A") (footprint "Package_DFN_QFN:DFN-8_2x2mm_P0.5mm")
     )
     (path "/b14c8b1b-493a-4a02-90ea-b228e228c2ae/34858afc-fff1-4b64-a85a-a2bdba12b69a"
       (reference "U?") (unit 1) (value "STM32H503CBT6") (footprint "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm")
+    )
+    (path "/007b5876-baf1-4b85-a507-5fa12bfe2ac5/e78b8369-9a65-474a-a997-cb1d4c7b41a6"
+      (reference "U?") (unit 1) (value "DRV8251ADDAR") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.62x3.51mm_ThermalVias")
     )
   )
 )
