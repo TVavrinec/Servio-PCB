@@ -650,7 +650,7 @@
   (symbol (lib_id "RKL-MotorDrivers:DRV8251ADDAR") (at 165.1 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf1bbe75-56a0-41e9-b9ec-f27a22464b6a)
-    (property "Reference" "U4" (at 164.465 69.85 0)
+    (property "Reference" "U3" (at 164.465 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "DRV8251ADDAR" (at 164.465 72.39 0)
@@ -674,7 +674,7 @@
     (instances
       (project "mainBoard"
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
