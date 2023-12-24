@@ -392,19 +392,19 @@
     (uuid f72bfa31-3525-46c3-9d54-33c13962580a)
   )
 
-  (label "Data.IN2" (at 116.84 81.28 0)
+  (label "Data.IN2" (at 116.84 81.28 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1611860b-e62d-46d9-bbe7-a1999e6cc6a2)
   )
-  (label "Data.VREF" (at 116.84 86.36 0)
+  (label "Data.VREF" (at 116.84 86.36 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1f578081-84b5-468a-ab74-21234fe3d84e)
   )
-  (label "Data.PROUD" (at 116.84 91.44 0)
+  (label "Data.PROUD" (at 116.84 91.44 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 63b40da6-b93d-40d5-8281-69cc6a186686)
   )
-  (label "Data.IN1" (at 116.84 83.82 0)
+  (label "Data.IN1" (at 116.84 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cb8fecec-e6ef-43a2-adf5-98fe0cdb6e0d)
   )
@@ -495,7 +495,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 186.69 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31ff19c9-8a05-4d75-9c75-1f35cf368e66)
-    (property "Reference" "J4" (at 189.23 77.4699 0)
+    (property "Reference" "M1" (at 189.23 77.4699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 189.23 80.0099 0)
@@ -511,7 +511,7 @@
     (instances
       (project "mainBoard"
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
-          (reference "J4") (unit 1)
+          (reference "M1") (unit 1)
         )
       )
     )
@@ -549,7 +549,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 186.69 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39245b7c-706c-4904-890f-add57fdfda2c)
-    (property "Reference" "J5" (at 189.23 82.5499 0)
+    (property "Reference" "M2" (at 189.23 82.5499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 189.23 85.0899 0)
@@ -565,7 +565,7 @@
     (instances
       (project "mainBoard"
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
-          (reference "J5") (unit 1)
+          (reference "M2") (unit 1)
         )
       )
     )
