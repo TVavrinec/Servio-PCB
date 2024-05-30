@@ -63,3 +63,57 @@ Pokud si troufáš (i s velkým procesorem) vlézt se do LX-16A nebo https://www
  - na predchozi iteraci byl jeden timer sezrany jako "vnitrni" timer pro spravne poolovani ADC
     - je mozne ze H5 bude delat to co chci i bez toho
     - nicmene bych to prelozil na "je potreba at je aspon jeden timer co jde provazat s ADC volny"
+
+## Zmeny pro V2:
+ 
+ 0) Zmena koncepce:
+    - Promyslet jestli neni vyhodnejsi se vyprdnout na "desku v desce" a mit radsi samostatnou servio desku, ktera se nasadi na debugovaci desku skrz pogo piny.
+
+ 1) Tvar desky:
+    - Ocekavame pouziti 3d tistenych ramecku v servech - vezme se servio, vytiskne se ramecek a strci do serva
+    => trosku zmensit tezku, idealne o 2mm na sirku/delku
+
+ 2) Procesor stejny, ale prozkoumat jestli mouser nema mensi footprint (LCSC nema)
+
+ 3) Odstranit jeden "interface connector" 
+    - Misto toho udelat "skupinu" trech 4PIN konektoru na debugovaci desce ktere jsou propojene jen mezi sebou
+    - To co pak muzu udelat bud pouzit jen 4PIN na serviu, nebo ho napojit do 4PINU na debug desce a od toho vest dva ruzne
+
+ 4) Pridat externi CHIP na ulozeni konfigurace - EEPROM pamet - preference na >=2kB pameti a interakci skrz I2C/SPI
+
+ 5) Prepojit hlavni "interface" UART na piny ktere se mapuji na stm32 bootloader pro flashovani, viz .pdf
+    - odkaz: https://www.st.com/resource/en/application_note/an2606-stm32-microcontroller-system-memory-boot-mode-stmicroelectronics.pdf
+    - v .pdf se zminuje ze je potreba nastavit spravne jeeden pin at se prepne do bootloaderu - zpristupnit jako jumper?
+
+ 6) Zvetsit "onboard" DBG connector at je dostupnejsi
+    - be creative
+    - zaroven je treba zpristupnit reset PIN
+
+ 7) Tvar PCB pro chtenne servo byl jemne mimo, viz. https://github.com/TVavrinec/Servio-PCB/issues/10
+    - Soustredil bych se spis na to zmensit deskur skrz krok 1) nez resit tohle
+
+ 8) Zpristupnit piny s PWM vstupem do H-Mustku na logic analyzer - je to docela casta operace
+
+ 9) Neni pristupny "index reset pin" na quadrature encoder - zpristupnit
+    - Details here: https://github.com/TVavrinec/Servio-PCB/issues/8
+    - Teoreticky staci at na quad.enc+spi nepouzivame PB5+PB4+PB3, ale PB5,PB4,PA2
+
+ 10) Dodelat zemne kvuli sonde na scope :) at je jednoduche debuggovani
+    - Staci na debugovaci desce
+
+ 11) Chceme kompatibilitu s black magic probe, takze:
+    - Footprinty: https://black-magic.org/knowledge/pinouts.html
+    - Zachovat STDC14 konektor, ale ocekavame ze se bude osazovat i jen jako 10pin - ARM SWD connector
+       - Klidne to jde udelat jako dva konektory - STDC14 a STDC10
+    - Udelat vedle STDC14 extra sadu pinu na UART - RX, TX, GND - 2,54mm pin header - at miri ven z desky
+    - Naroutovat i TRACESWO - je to uzitecna featura
+
+ 12) Pridat LEDky pro RX/TX piny debugovaciho UARTu na debugovaci desce
+
+ 13) Rozdelit konektor pro "position sensors" na externi desce na separatni pro: potak, quadrature, spi (pokud jsou identicke tak staci jeden) - furt JST-XH
+
+ 14) J7 - konektor na veci na cidla na desce je _maly_ na rucni pajeni - predelat:
+    - "enc-type-detect" pin muzeme oddelat uplne
+    - zkusit zvetsi na vetsi pitch?
+    - NENI potreba at je to jeden konektor - klidne rozbit na vice konektoru/alternativni reseni
+       
