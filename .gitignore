@@ -33,3 +33,5 @@ mainBoard/#auto_saved_files#
 mainBoard/~mainBoard.kicad_sch.lck
 
 *.lck
+mainBoard/jlcout
+mainBoard/jlcdata
