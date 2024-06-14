@@ -195,20 +195,11 @@
   (junction (at 180.34 91.44) (diameter 0) (color 0 0 0 0)
     (uuid 01694fb1-8a16-4657-b947-335b68f67bfc)
   )
-  (junction (at 167.64 83.82) (diameter 0) (color 0 0 0 0)
-    (uuid 245f6968-c13a-4817-b401-a77fec274bcd)
-  )
   (junction (at 114.3 76.2) (diameter 0) (color 0 0 0 0)
     (uuid 3ab5f9e0-529b-44d3-9bfe-0ed042327acf)
   )
   (junction (at 76.2 76.2) (diameter 0) (color 0 0 0 0)
     (uuid 444e096b-dcd5-4d8e-8776-3c5fc59fba33)
-  )
-  (junction (at 175.26 91.44) (diameter 0) (color 0 0 0 0)
-    (uuid 5ceb20c0-c6e5-45ce-a481-22f704312c19)
-  )
-  (junction (at 167.64 86.36) (diameter 0) (color 0 0 0 0)
-    (uuid 733775c0-6498-407e-a8fa-4c637f473638)
   )
   (junction (at 101.6 76.2) (diameter 0) (color 0 0 0 0)
     (uuid 9bb58771-54e6-4ca6-84ae-e566f0a186ef)
@@ -218,9 +209,6 @@
   )
   (junction (at 187.96 91.44) (diameter 0) (color 0 0 0 0)
     (uuid ec37019e-0b7b-41bd-a95d-67791327c6a0)
-  )
-  (junction (at 175.26 81.28) (diameter 0) (color 0 0 0 0)
-    (uuid f340bcde-1467-4190-8a88-3a0e891e307e)
   )
 
   (bus_entry (at 149.86 83.82) (size 2.54 -2.54)
@@ -240,10 +228,6 @@
     (uuid fc57263b-2923-4af7-be32-29e55f3c10ee)
   )
 
-  (wire (pts (xy 175.26 91.44) (xy 175.26 93.98))
-    (stroke (width 0) (type default))
-    (uuid 0f93ffbd-3e54-4357-b59f-03ed88e0e259)
-  )
   (bus (pts (xy 149.86 93.98) (xy 149.86 96.52))
     (stroke (width 0) (type default))
     (uuid 15fdca8b-b2a0-4b62-95d5-240d2bc1c485)
@@ -261,10 +245,6 @@
     (stroke (width 0) (type default))
     (uuid 2ccce356-2a30-43d4-8847-6c932dbf4621)
   )
-  (wire (pts (xy 175.26 91.44) (xy 180.34 91.44))
-    (stroke (width 0) (type default))
-    (uuid 35660688-22e1-4852-878a-8e4db81b81fa)
-  )
   (wire (pts (xy 76.2 78.74) (xy 76.2 76.2))
     (stroke (width 0) (type default))
     (uuid 38b7113b-33c3-4a8a-a627-6291dcecbcb4)
@@ -281,11 +261,7 @@
     (stroke (width 0) (type default))
     (uuid 40adff65-22aa-47de-ada4-edea0260496a)
   )
-  (wire (pts (xy 167.64 86.36) (xy 167.64 93.98))
-    (stroke (width 0) (type default))
-    (uuid 42a602d6-c243-4ead-9367-5634f29dc82e)
-  )
-  (wire (pts (xy 152.4 83.82) (xy 167.64 83.82))
+  (wire (pts (xy 152.4 83.82) (xy 190.5 83.82))
     (stroke (width 0) (type default))
     (uuid 4ed6a688-dc4b-4d03-b7b9-d8ba9f4b4251)
   )
@@ -310,7 +286,7 @@
     (uuid 731a1e30-042f-4d81-882f-ad9ed48abeb8)
   )
 
-  (wire (pts (xy 152.4 86.36) (xy 167.64 86.36))
+  (wire (pts (xy 152.4 86.36) (xy 190.5 86.36))
     (stroke (width 0) (type default))
     (uuid 7c9b5346-8a21-401d-a1fa-cfff830ad2f5)
   )
@@ -323,19 +299,11 @@
     (uuid 930e61b9-00c9-4660-9b78-fcab4a4b3c63)
   )
 
-  (wire (pts (xy 175.26 73.66) (xy 175.26 81.28))
-    (stroke (width 0) (type default))
-    (uuid 93a3a74e-43d1-4ab3-a05c-017fe2ede131)
-  )
   (wire (pts (xy 209.55 83.82) (xy 217.17 83.82))
     (stroke (width 0) (type default))
     (uuid 9a11afbe-2668-46cb-a66d-c8cda14d68a4)
   )
-  (wire (pts (xy 167.64 86.36) (xy 190.5 86.36))
-    (stroke (width 0) (type default))
-    (uuid ad52f9ca-e7e4-4e96-892f-2b396b2eab94)
-  )
-  (wire (pts (xy 152.4 81.28) (xy 175.26 81.28))
+  (wire (pts (xy 152.4 81.28) (xy 190.5 81.28))
     (stroke (width 0) (type default))
     (uuid ada23eec-98b8-48ee-94e3-7ab154214c24)
   )
@@ -343,21 +311,9 @@
     (stroke (width 0) (type default))
     (uuid bc701fdf-de6b-4986-bc72-d5a4b637acaf)
   )
-  (wire (pts (xy 152.4 91.44) (xy 175.26 91.44))
+  (wire (pts (xy 152.4 91.44) (xy 180.34 91.44))
     (stroke (width 0) (type default))
     (uuid c13e2929-3364-4041-9117-c249f6a50e57)
-  )
-  (wire (pts (xy 167.64 73.66) (xy 167.64 83.82))
-    (stroke (width 0) (type default))
-    (uuid db47b014-b56c-42a7-876d-a236b94f2279)
-  )
-  (wire (pts (xy 167.64 83.82) (xy 190.5 83.82))
-    (stroke (width 0) (type default))
-    (uuid e98aa862-d29a-43c3-aa32-fb6d8fccea37)
-  )
-  (wire (pts (xy 175.26 81.28) (xy 190.5 81.28))
-    (stroke (width 0) (type default))
-    (uuid ebae6065-df12-432c-b24c-6fb7439f7849)
   )
   (wire (pts (xy 180.34 91.44) (xy 187.96 91.44))
     (stroke (width 0) (type default))
@@ -451,36 +407,8 @@
     (pin "2" (uuid 9d627a25-a8a2-47dd-8268-c37a38fc7e8a))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
-          (reference "C15") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 167.64 68.58 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 235a39e8-3cda-4dc9-9369-7bee58963942)
-    (property "Reference" "J9" (at 166.37 59.69 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x01" (at 168.91 59.69 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "RKL-Connectors:YZ157015035P-01-contact_pad" (at 167.64 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 167.64 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 66cd67a3-47c3-4535-837c-8632ea7bbbca))
-    (instances
-      (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/b14c8b1b-493a-4a02-90ea-b228e228c2ae"
-          (reference "J9") (unit 1)
-        )
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
-          (reference "J6") (unit 1)
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/5eee879b-b1a3-4b0d-9261-33adc2872a58"
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -511,8 +439,8 @@
     (pin "2" (uuid 51c90c67-9e81-42c8-81ec-12fe7f2df3aa))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
-          (reference "R7") (unit 1)
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/5eee879b-b1a3-4b0d-9261-33adc2872a58"
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -539,7 +467,7 @@
     (pin "1" (uuid 269f8383-9a84-448c-ae86-9af9127b2e08))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/5eee879b-b1a3-4b0d-9261-33adc2872a58"
           (reference "M1") (unit 1)
         )
       )
@@ -567,64 +495,8 @@
     (pin "1" (uuid 663ef6a3-15bd-4898-8e7b-f5cbcd663e0b))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/5eee879b-b1a3-4b0d-9261-33adc2872a58"
           (reference "M2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 175.26 68.58 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4f941f22-119c-4842-bebc-5b86127862ac)
-    (property "Reference" "J9" (at 173.99 59.69 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x01" (at 176.53 59.69 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "RKL-Connectors:YZ157015035P-01-contact_pad" (at 175.26 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 175.26 68.58 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 451de671-6844-4cdd-a5eb-7908cfac063e))
-    (instances
-      (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/b14c8b1b-493a-4a02-90ea-b228e228c2ae"
-          (reference "J9") (unit 1)
-        )
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
-          (reference "J8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 167.64 99.06 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b72dd262-ab35-4ded-8a1d-3770be32a179)
-    (property "Reference" "J9" (at 166.37 107.95 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x01" (at 168.91 107.95 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "RKL-Connectors:YZ157015035P-01-contact_pad" (at 167.64 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 167.64 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 954a563c-4540-44b6-b62c-d2200b0b8048))
-    (instances
-      (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/b14c8b1b-493a-4a02-90ea-b228e228c2ae"
-          (reference "J9") (unit 1)
-        )
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
-          (reference "J4") (unit 1)
         )
       )
     )
@@ -655,11 +527,8 @@
     (pin "2" (uuid fda0170d-3678-429c-8c36-c8972d1fb559))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/64dbc0d3-4eed-460b-93d3-a846dd72318b"
-          (reference "C2") (unit 1)
-        )
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
-          (reference "C14") (unit 1)
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/5eee879b-b1a3-4b0d-9261-33adc2872a58"
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -694,8 +563,8 @@
     (pin "9" (uuid 7373a9c6-ae63-451e-93cb-93519acb6190))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
-          (reference "U3") (unit 1)
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/5eee879b-b1a3-4b0d-9261-33adc2872a58"
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -726,39 +595,8 @@
     (pin "2" (uuid eb902eda-c918-463e-85d8-b4390ee6b7aa))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/64dbc0d3-4eed-460b-93d3-a846dd72318b"
-          (reference "C2") (unit 1)
-        )
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
-          (reference "C17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 175.26 99.06 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e126be8d-e79e-49d4-8169-8613ec18125a)
-    (property "Reference" "J9" (at 173.99 107.95 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x01" (at 176.53 107.95 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "RKL-Connectors:YZ157015035P-01-contact_pad" (at 175.26 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 175.26 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c2d0e5ee-d5c9-441d-b3cd-141adc1b59e9))
-    (instances
-      (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/b14c8b1b-493a-4a02-90ea-b228e228c2ae"
-          (reference "J9") (unit 1)
-        )
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
-          (reference "J3") (unit 1)
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/5eee879b-b1a3-4b0d-9261-33adc2872a58"
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -789,11 +627,8 @@
     (pin "2" (uuid 410e2d36-2264-4bd6-8ba3-a5d4dc16972d))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/64dbc0d3-4eed-460b-93d3-a846dd72318b"
-          (reference "C2") (unit 1)
-        )
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
-          (reference "C16") (unit 1)
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/5eee879b-b1a3-4b0d-9261-33adc2872a58"
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -824,11 +659,8 @@
     (pin "2" (uuid 9b27b9c2-dc9a-4ab4-9829-f18cf8304719))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/64dbc0d3-4eed-460b-93d3-a846dd72318b"
-          (reference "C2") (unit 1)
-        )
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/007b5876-baf1-4b85-a507-5fa12bfe2ac5"
-          (reference "C18") (unit 1)
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/5eee879b-b1a3-4b0d-9261-33adc2872a58"
+          (reference "C10") (unit 1)
         )
       )
     )

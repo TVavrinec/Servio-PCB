@@ -345,8 +345,8 @@
     (pin "8" (uuid 00a5c5fa-c29f-409f-971e-b18939c2a6fa))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/64dbc0d3-4eed-460b-93d3-a846dd72318b"
-          (reference "U1") (unit 1)
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/edf435fc-227a-4d11-aec9-a17754be9b71"
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -377,8 +377,8 @@
     (pin "2" (uuid b3ac503a-bc97-416e-9b73-4217649a262b))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/64dbc0d3-4eed-460b-93d3-a846dd72318b"
-          (reference "C3") (unit 1)
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/edf435fc-227a-4d11-aec9-a17754be9b71"
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -409,7 +409,7 @@
     (pin "2" (uuid 55006984-6457-4d4a-9015-118486950b5c))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/64dbc0d3-4eed-460b-93d3-a846dd72318b"
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/edf435fc-227a-4d11-aec9-a17754be9b71"
           (reference "L1") (unit 1)
         )
       )
@@ -441,8 +441,8 @@
     (pin "2" (uuid 922fd341-eefe-4327-ac27-794df33ce50c))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/64dbc0d3-4eed-460b-93d3-a846dd72318b"
-          (reference "C4") (unit 1)
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/edf435fc-227a-4d11-aec9-a17754be9b71"
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -466,7 +466,7 @@
     (pin "1" (uuid 1054b56f-de8b-49c8-99a0-ba3cb20bcf80))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/64dbc0d3-4eed-460b-93d3-a846dd72318b"
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/edf435fc-227a-4d11-aec9-a17754be9b71"
           (reference "#FLG01") (unit 1)
         )
       )
@@ -498,8 +498,8 @@
     (pin "2" (uuid 62ecf836-5a07-4541-8a87-36252be9a709))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/64dbc0d3-4eed-460b-93d3-a846dd72318b"
-          (reference "C2") (unit 1)
+        (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/edf435fc-227a-4d11-aec9-a17754be9b71"
+          (reference "C16") (unit 1)
         )
       )
     )

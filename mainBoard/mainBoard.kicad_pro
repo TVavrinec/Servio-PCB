@@ -511,16 +511,24 @@
       ""
     ],
     [
-      "64dbc0d3-4eed-460b-93d3-a846dd72318b",
-      "Power"
-    ],
-    [
-      "b14c8b1b-493a-4a02-90ea-b228e228c2ae",
+      "44dc130a-6737-41a6-9699-1f2a448dca94",
       "CPU"
     ],
     [
-      "007b5876-baf1-4b85-a507-5fa12bfe2ac5",
+      "5eee879b-b1a3-4b0d-9261-33adc2872a58",
       "DRV"
+    ],
+    [
+      "edf435fc-227a-4d11-aec9-a17754be9b71",
+      "Power"
+    ],
+    [
+      "56ffa5b9-a74f-4078-9dd8-ac68399463f0",
+      "MotorBoard"
+    ],
+    [
+      "3f547cb3-b336-4e37-a735-70b4a8f64673",
+      "DebuBoard"
     ]
   ],
   "text_variables": {}
