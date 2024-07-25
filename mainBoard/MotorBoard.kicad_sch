@@ -702,7 +702,7 @@
     (stroke (width 0.3) (type default) (color 0 0 0 1))
     (uuid 1697b8c2-db4a-499d-89a2-6b13ef1a7b1a)
   )
-  (bus (pts (xy 182.88 101.6) (xy 182.88 152.4))
+  (bus (pts (xy 182.88 104.14) (xy 182.88 152.4))
     (stroke (width 0) (type default))
     (uuid 1edce90d-c318-45f1-8c50-142c1225a082)
   )
@@ -867,7 +867,7 @@
     (stroke (width 0) (type default))
     (uuid af7a1131-2f37-4655-a80a-7fb5eaa20985)
   )
-  (bus (pts (xy 172.72 101.6) (xy 182.88 101.6))
+  (bus (pts (xy 172.72 104.14) (xy 182.88 104.14))
     (stroke (width 0) (type default))
     (uuid bb85a9da-dcf8-475a-b2dd-6ed351918240)
   )
@@ -1061,7 +1061,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 97897bec-e6ab-4345-b868-cf7ae7f4603b)
   )
-  (hierarchical_label "DRV{IN1 IN2 VREF PROUD}" (shape bidirectional) (at 180.34 73.66 0) (fields_autoplaced)
+  (hierarchical_label "DRV{IN1 IN2 VREF CURRENT}" (shape bidirectional) (at 180.34 73.66 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b0d5697f-0769-4f4d-b7f2-57a785b940e1)
   )
@@ -1069,15 +1069,15 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid cfe9436e-e08c-43d9-979e-a473a8fad45e)
   )
-  (hierarchical_label "TUNING-LINES{TX-2 RX-2 SWDIO SWCLK NRST}" (shape input) (at 88.9 114.3 180) (fields_autoplaced)
+  (hierarchical_label "TUNING-LINES{TX-2 RX-2 SWDIO SWCLK NRST TRACESWO}" (shape input) (at 88.9 114.3 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ff571c26-7079-4eff-9c70-ff176fc38b8a)
+    (uuid f1aebdfa-f3e5-475c-9c54-a96361f3576f)
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 35.56 60.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07ac308d-7e11-4825-a904-8b4b6bbb3314)
-    (property "Reference" "J1" (at 35.56 49.53 0)
+    (property "Reference" "J11" (at 35.56 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x04" (at 35.56 52.07 0)
@@ -1098,9 +1098,6 @@
     (pin "4" (uuid 4f384c8f-63e6-484b-86e7-d4ce8d53c69b))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438"
-          (reference "J1") (unit 1)
-        )
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0"
           (reference "J11") (unit 1)
         )
@@ -1134,9 +1131,6 @@
     (pin "B3" (uuid ccba8459-507e-4e85-90d7-5c496386a5ea))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438"
-          (reference "U4") (unit 1)
-        )
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0"
           (reference "U4") (unit 1)
         )
@@ -1147,7 +1141,7 @@
   (symbol (lib_id "Device:LED_RGAB") (at 144.78 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27623a2b-260f-40a8-bbcb-24c97a92bc25)
-    (property "Reference" "D5" (at 153.67 130.81 90)
+    (property "Reference" "D1" (at 153.67 130.81 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED_RGAB" (at 153.67 133.35 90)
@@ -1168,9 +1162,6 @@
     (pin "4" (uuid c1ba2c66-4a72-4ca9-ab23-735639ee2f06))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438"
-          (reference "D5") (unit 1)
-        )
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0"
           (reference "D1") (unit 1)
         )
@@ -1203,9 +1194,6 @@
     (pin "2" (uuid 6de43e65-0c02-4881-8c69-9f9d1347cfaf))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438"
-          (reference "R6") (unit 1)
-        )
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0"
           (reference "R6") (unit 1)
         )
@@ -1216,7 +1204,7 @@
   (symbol (lib_id "Device:R") (at 144.78 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f925b8a-ce96-4b3a-b1b4-4d6fdf6703b3)
-    (property "Reference" "R4" (at 146.05 139.7 0)
+    (property "Reference" "R5" (at 146.05 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 146.05 142.24 0)
@@ -1238,9 +1226,6 @@
     (pin "2" (uuid 9391ce81-b953-4b27-aa06-265964889334))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438"
-          (reference "R4") (unit 1)
-        )
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0"
           (reference "R5") (unit 1)
         )
@@ -1251,7 +1236,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 234.95 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 41f6cba2-8fd9-45ed-abcb-6964879ea4f7)
-    (property "Reference" "J7" (at 237.49 52.07 0)
+    (property "Reference" "J10" (at 237.49 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x05" (at 237.49 54.61 0)
@@ -1270,9 +1255,6 @@
     (pin "5" (uuid a81fc8e4-3620-4322-a81c-5315be1d8886))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438"
-          (reference "J7") (unit 1)
-        )
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0"
           (reference "J10") (unit 1)
         )
@@ -1283,7 +1265,7 @@
   (symbol (lib_id "Device:C") (at 83.82 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6bef7c5a-dd91-4541-afae-2150138a9706)
-    (property "Reference" "C1" (at 87.63 91.44 0)
+    (property "Reference" "C18" (at 87.63 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 87.63 93.98 0)
@@ -1305,9 +1287,6 @@
     (pin "2" (uuid f138175a-9d2e-45ec-8b4a-3a6f35f4cdef))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438"
-          (reference "C1") (unit 1)
-        )
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0"
           (reference "C18") (unit 1)
         )
@@ -1318,7 +1297,7 @@
   (symbol (lib_id "Device:R") (at 139.7 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c444c70-92ac-48b5-803e-d7b79a729dba)
-    (property "Reference" "R5" (at 140.97 139.7 0)
+    (property "Reference" "R4" (at 140.97 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 140.97 142.24 0)
@@ -1340,9 +1319,6 @@
     (pin "2" (uuid 75d3956e-7570-49b1-be10-f0db4bdb2421))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438"
-          (reference "R5") (unit 1)
-        )
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0"
           (reference "R4") (unit 1)
         )
@@ -1353,7 +1329,7 @@
   (symbol (lib_id "Device:R") (at 64.77 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d00f0a4-72cf-46c4-9189-a96be0d7c37b)
-    (property "Reference" "R1" (at 64.77 80.01 90)
+    (property "Reference" "R2" (at 64.77 80.01 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 64.77 82.55 90)
@@ -1375,9 +1351,6 @@
     (pin "2" (uuid 34fb0c9c-f646-4365-8a74-d1bceb58a14c))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438"
-          (reference "R1") (unit 1)
-        )
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0"
           (reference "R2") (unit 1)
         )
@@ -1388,7 +1361,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 27.94 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2273588-16d2-47cb-be92-d9fcaf8e124c)
-    (property "Reference" "#FLG03" (at 27.94 64.135 0)
+    (property "Reference" "#FLG02" (at 27.94 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 22.86 62.23 0)
@@ -1403,9 +1376,6 @@
     (pin "1" (uuid 646d9416-3221-4a82-844b-4cd6b15b1cef))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438"
-          (reference "#FLG03") (unit 1)
-        )
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0"
           (reference "#FLG02") (unit 1)
         )
@@ -1416,7 +1386,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 50.8 63.5 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e7e08e01-516f-4c94-9437-196f6ad686a7)
-    (property "Reference" "#FLG02" (at 52.705 63.5 0)
+    (property "Reference" "#FLG03" (at 52.705 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 54.61 58.42 0)
@@ -1431,9 +1401,6 @@
     (pin "1" (uuid 58e42471-ff95-424e-97d3-2cc0983db6f2))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438"
-          (reference "#FLG02") (unit 1)
-        )
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0"
           (reference "#FLG03") (unit 1)
         )
@@ -1444,7 +1411,7 @@
   (symbol (lib_id "Device:R") (at 71.12 92.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fcaf3558-6b30-4469-a6f1-d5bd0fc81aa4)
-    (property "Reference" "R2" (at 73.66 91.44 0)
+    (property "Reference" "R3" (at 73.66 91.44 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 73.66 93.98 0)
@@ -1466,9 +1433,6 @@
     (pin "2" (uuid 07631dd1-ee48-4cfb-b005-d37f27948f13))
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438"
-          (reference "R2") (unit 1)
-        )
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0"
           (reference "R3") (unit 1)
         )
@@ -1494,19 +1458,11 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid f8ceea8d-90bd-4e80-be19-dc06fc6f958f)
     )
-    (pin "MEŘENÍ-NAPÁJENÍ" input (at 109.22 86.36 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid cd5195e9-d3fc-4e05-b8be-ff7ade862020)
-    )
     (pin "ENC{POT CLK MISO MOSI ENC-TYP-DET}" bidirectional (at 172.72 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid aabc6f26-8042-4cbb-afae-1da152e463f0)
     )
-    (pin "DRV{IN1 IN2 VREF PROUD}" bidirectional (at 172.72 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 3cfc664f-d2a2-4601-89f4-5b4dc7750860)
-    )
-    (pin "LED{R G B}" output (at 172.72 101.6 0)
+    (pin "LED{R G B}" output (at 172.72 104.14 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid c3572b1e-7cc8-4acd-a0dd-ae3f2f2c5664)
     )
@@ -1518,13 +1474,20 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid cd1a0bcc-fdf2-47ff-b8bd-726b2f18b085)
     )
-    (pin "TUNING-LINES{TX-2 RX-2 SWDIO SWCLK NRST}" input (at 109.22 101.6 180)
+    (pin "SUPPLY_VOLTAGE_MEASUREMENT" input (at 109.22 86.36 180)
       (effects (font (size 1.27 1.27)) (justify left))
-      (uuid d505c7da-e382-4f43-99a6-039a7d23dfe1)
+      (uuid 12b97ee5-723f-456d-a721-8293ae7658ab)
+    )
+    (pin "TUNING-LINES{TX-2 RX-2 SWDIO SWCLK NRST TRACESWO}" input (at 109.22 101.6 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 996a7079-0930-434c-bf7c-0735b5fc9994)
+    )
+    (pin "DRV{IN1 IN2 VREF CURRENT}" bidirectional (at 172.72 76.2 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 7c33cf24-4546-4953-9120-571688e42216)
     )
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438" (page "3"))
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0" (page "2"))
       )
     )
@@ -1548,13 +1511,12 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 333a720c-d103-4f6e-9055-6945aa9e555a)
     )
-    (pin "Data{IN1 IN2 VREF PROUD}" bidirectional (at 220.98 82.55 180)
+    (pin "DRV{IN1 IN2 VREF CURRENT}" bidirectional (at 220.98 82.55 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid cea54a34-47c2-4c61-a74a-84a039416f68)
     )
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438" (page "4"))
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0" (page "3"))
       )
     )
@@ -1584,7 +1546,6 @@
     )
     (instances
       (project "mainBoard"
-        (path "/30ed06d7-0b03-4878-b461-066cda7e7438" (page "2"))
         (path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0" (page "4"))
       )
     )
