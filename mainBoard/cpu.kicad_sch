@@ -735,7 +735,7 @@
     (uuid fa776d37-f716-46fe-8dd6-9410abf06e0e)
   )
 
-  (label "TUNING-LINES.TRACESWO" (at 170.18 116.84 0)
+  (label "TUNING-LINES.TRACESWO" (at 170.18 116.84 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 08a81d31-37d7-4182-9992-01263125372b)
   )
@@ -767,7 +767,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 69b9d2dc-59d6-4e9a-937d-688b3bc4606d)
   )
-  (label "EEPROM.SDA" (at 170.18 88.9 0)
+  (label "EEPROM.SDA" (at 170.18 88.9 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7accc62a-51b9-4b9d-b871-cd24352ba304)
   )
