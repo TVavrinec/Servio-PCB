@@ -412,6 +412,9 @@
     (property "Datasheet" "~" (at 138.43 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB_IGNORE" "1" (at 138.43 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d0746e85-be74-4664-bec3-7d002642a5dd))
     (instances
       (project "mainBoard"
@@ -460,6 +463,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB_IGNORE" "1" (at 138.43 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ee38c945-4650-4a2a-91aa-e362a8a843b6))
@@ -562,6 +568,9 @@
     (property "Datasheet" "~" (at 138.43 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB_IGNORE" "1" (at 138.43 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid b2d05997-ef07-4f34-8fc1-2fc740774025))
     (instances
       (project "mainBoard"
@@ -585,6 +594,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB_IGNORE" "1" (at 138.43 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4f1f6c77-9858-4b61-ae2f-2f52e4b75f47))
@@ -662,6 +674,9 @@
     (property "Datasheet" "~" (at 138.43 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB_IGNORE" "1" (at 138.43 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e075232d-5659-4310-aa73-67471bd9b254))
     (instances
       (project "mainBoard"
@@ -685,6 +700,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB_IGNORE" "1" (at 138.43 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 947b3605-6043-45cf-82d0-0ba7c3ac1ef9))
@@ -712,6 +730,9 @@
     (property "Datasheet" "~" (at 138.43 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB_IGNORE" "1" (at 138.43 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 82fa1aa7-d004-4737-b107-cf9af0f54eb0))
     (instances
       (project "mainBoard"
@@ -735,6 +756,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB_IGNORE" "1" (at 138.43 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid be1c9279-b4f9-4b77-81a7-b04a11eded22))
@@ -812,6 +836,9 @@
     (property "Datasheet" "~" (at 138.43 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "JLCPCB_IGNORE" "1" (at 138.43 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9066ce40-5b3e-45e9-bb1c-d551801302cb))
     (instances
       (project "mainBoard"
@@ -835,6 +862,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 138.43 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLCPCB_IGNORE" "1" (at 138.43 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7f7f0811-20bd-4c32-a0c9-a702fc632a78))
