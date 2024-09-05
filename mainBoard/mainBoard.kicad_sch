@@ -387,6 +387,9 @@
     (property "Datasheet" "~" (at 153.67 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5157325" (at 153.67 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 798439bd-3d11-4aec-84d8-5ffb8a299a6a))
     (instances
       (project "mainBoard"
@@ -438,6 +441,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5157325" (at 153.67 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a2b6e7c2-1c94-40dd-9134-b640742a6e77))
@@ -493,6 +499,9 @@
     (property "Datasheet" "~" (at 153.67 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5157325" (at 153.67 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid c35d763f-19f4-4bd3-b7cb-48c31e58ac9b))
     (instances
       (project "mainBoard"
@@ -518,6 +527,9 @@
     (property "Datasheet" "~" (at 153.67 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5157325" (at 153.67 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 09826710-8a1e-474a-af21-b823f7c954b5))
     (instances
       (project "mainBoard"
@@ -541,6 +553,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5157325" (at 153.67 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9666ec94-dd7f-4c1e-99cb-27f651d92548))
@@ -624,6 +639,9 @@
     (property "Datasheet" "~" (at 153.67 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5157325" (at 153.67 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 628df8bc-1f11-4d9d-a5d0-dd0f328ecef2))
     (instances
       (project "mainBoard"
@@ -647,6 +665,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5157325" (at 153.67 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 727c6f91-30bc-43c8-acfb-25ad7dd1ee5a))
@@ -786,6 +807,9 @@
     (property "Datasheet" "~" (at 153.67 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "LCSC" "C5157325" (at 153.67 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 0a9ec273-2bb7-4b9f-98d4-56b988da8bf6))
     (instances
       (project "mainBoard"
@@ -809,6 +833,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5157325" (at 153.67 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f4e5864d-ff69-4ebb-8e88-2c54e01689e2))
@@ -890,6 +917,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 153.67 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C5157325" (at 153.67 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c09f2afe-05f7-4f48-86d4-131280eb8e93))
