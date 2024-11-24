@@ -1215,7 +1215,7 @@
     (property "Datasheet" "~" (at 81.28 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C108342" (at 81.28 54.61 0)
+    (property "LCSC" "C23733" (at 81.28 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "note" "" (at 81.28 54.61 0)
