@@ -1804,6 +1804,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 58.42) (xy 229.87 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f28cd6-d8e0-4cde-a0c2-1387705b82b4")
+	)
+	(wire
+		(pts
 			(xy 218.44 88.9) (xy 218.44 86.36)
 		)
 		(stroke
@@ -1825,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 60.96) (xy 227.33 58.42)
+			(xy 227.33 60.96) (xy 227.33 55.88)
 		)
 		(stroke
 			(width 0.3)
@@ -1930,7 +1940,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 58.42) (xy 229.87 58.42)
+			(xy 227.33 55.88) (xy 229.87 55.88)
 		)
 		(stroke
 			(width 0.3)
@@ -2373,13 +2383,13 @@
 		(uuid "728ca62e-5d77-429f-9dc9-b42d761ee06c")
 	)
 	(label "3V3"
-		(at 229.87 55.88 180)
+		(at 222.25 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8066846d-ac16-4a66-91b1-66e1e14baaf6")
 	)

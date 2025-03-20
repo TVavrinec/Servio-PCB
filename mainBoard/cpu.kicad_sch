@@ -5,6 +5,116 @@
 	(uuid "e460326f-bf01-4ea0-8d43-8303818f4a31")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1258,10 +1368,6 @@
 		(uuid "4c433659-bac3-43f4-bd94-7a0ca050a3aa")
 	)
 	(no_connect
-		(at 124.46 99.06)
-		(uuid "4f4b30a9-faf7-42c2-8e16-3e3e1463056e")
-	)
-	(no_connect
 		(at 170.18 48.26)
 		(uuid "6e640d13-d420-440c-a57c-2e576a68d991")
 	)
@@ -2102,6 +2208,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 99.06) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6614bcd-410a-446a-b215-824bb6056bd7")
+	)
+	(wire
+		(pts
 			(xy 170.18 116.84) (xy 195.58 116.84)
 		)
 		(stroke
@@ -2399,6 +2515,17 @@
 			(justify left bottom)
 		)
 		(uuid "7accc62a-51b9-4b9d-b871-cd24352ba304")
+	)
+	(label "BOOT"
+		(at 116.84 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fdc228b-3d83-4c47-963d-a5f8061832ab")
 	)
 	(label "LED.B"
 		(at 170.18 58.42 0)
@@ -2770,6 +2897,80 @@
 			(justify right)
 		)
 		(uuid "efe34294-1e7d-4c12-ba59-6d61de9a6d92")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 111.76 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01b312a2-5889-4fc1-9d22-3d9483417166")
+		(property "Reference" "J39"
+			(at 107.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "RKL-Connectors:YZ157015035P-01-contact_pad"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_IGNORE" "1"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "154c6b6d-b479-4c3a-a580-74490e72fb26")
+		)
+		(instances
+			(project "mainBoard"
+				(path "/30ed06d7-0b03-4878-b461-066cda7e7438/56ffa5b9-a74f-4078-9dd8-ac68399463f0/44dc130a-6737-41a6-9699-1f2a448dca94"
+					(reference "J39")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
