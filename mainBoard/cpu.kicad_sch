@@ -1320,7 +1320,7 @@
 		(uuid "1d5b084b-437e-499d-ae5c-8badbaa50dcb")
 	)
 	(bus_entry
-		(at 190.5 58.42)
+		(at 190.5 93.98)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1446,7 +1446,7 @@
 		(uuid "c11d4e23-d610-430d-9392-73afe87ac779")
 	)
 	(bus_entry
-		(at 203.2 78.74)
+		(at 203.2 58.42)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -1512,7 +1512,7 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 50.8) (xy 203.2 78.74)
+			(xy 203.2 50.8) (xy 203.2 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1579,16 +1579,6 @@
 			(type default)
 		)
 		(uuid "2634e025-edfd-47f5-9c9e-d56b83c4714c")
-	)
-	(wire
-		(pts
-			(xy 190.5 96.52) (xy 190.5 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29ae9d12-ab7a-498e-8419-be1e6a348f56")
 	)
 	(wire
 		(pts
@@ -1812,7 +1802,7 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 78.74) (xy 203.2 116.84)
+			(xy 203.2 58.42) (xy 203.2 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1850,6 +1840,16 @@
 		)
 		(uuid "6acba658-ced4-4b03-9e87-4d0306360e85")
 	)
+	(bus
+		(pts
+			(xy 190.5 55.88) (xy 190.5 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f6c229-7ee8-4b81-b970-f8c19c68dae6")
+	)
 	(wire
 		(pts
 			(xy 170.18 124.46) (xy 205.74 124.46)
@@ -1862,7 +1862,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 60.96) (xy 187.96 60.96)
+			(xy 170.18 96.52) (xy 187.96 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2112,16 +2112,6 @@
 	)
 	(bus
 		(pts
-			(xy 190.5 55.88) (xy 190.5 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf83976d-b874-4833-b7da-a4273c5e5eb3")
-	)
-	(bus
-		(pts
 			(xy 213.36 78.74) (xy 215.9 78.74)
 		)
 		(stroke
@@ -2152,7 +2142,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 96.52) (xy 190.5 96.52)
+			(xy 170.18 60.96) (xy 200.66 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2209,16 +2199,6 @@
 			(type default)
 		)
 		(uuid "dbf308fe-7723-4358-8528-3395657513ea")
-	)
-	(wire
-		(pts
-			(xy 190.5 81.28) (xy 200.66 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e09dbef2-c5c3-4ed2-9cb2-e276a937c831")
 	)
 	(wire
 		(pts
@@ -2443,7 +2423,7 @@
 		(uuid "a8437ad7-92a5-4f4f-92f6-0930c8cffca5")
 	)
 	(label "LED.G"
-		(at 170.18 60.96 0)
+		(at 170.18 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2487,7 +2467,7 @@
 		(uuid "dbd4790b-24f7-4c74-b030-a974fef364a7")
 	)
 	(label "ENC.CLK"
-		(at 170.18 96.52 0)
+		(at 170.18 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
