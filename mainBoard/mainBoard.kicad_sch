@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "30ed06d7-0b03-4878-b461-066cda7e7438")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,17 +76,6 @@
 			)
 			(symbol "Conn_01x01_1_1"
 				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -1.27)
 					(stroke
@@ -93,6 +84,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -114,6 +116,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(bus_entry
@@ -640,7 +643,6 @@
 	)
 	(label "DB-TUNING-LINES.SWDIO"
 		(at 158.75 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -651,7 +653,6 @@
 	)
 	(label "DB-DRV.IN1"
 		(at 158.75 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -662,7 +663,6 @@
 	)
 	(label "DB-TUNING-LINES.TRACESWO"
 		(at 158.75 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -673,7 +673,6 @@
 	)
 	(label "DB-TUNING-LINES.RX-2"
 		(at 158.75 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -684,7 +683,6 @@
 	)
 	(label "TUNING-LINES.TRACESWO"
 		(at 133.35 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -695,7 +693,6 @@
 	)
 	(label "DRV.IN1"
 		(at 110.49 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -706,7 +703,6 @@
 	)
 	(label "TUNING-LINES.SWDIO"
 		(at 133.35 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -717,7 +713,6 @@
 	)
 	(label "DB-TUNING-LINES.TX-2"
 		(at 158.75 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -728,7 +723,6 @@
 	)
 	(label "TUNING-LINES.TX-2"
 		(at 133.35 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -739,7 +733,6 @@
 	)
 	(label "TUNING-LINES.NRST"
 		(at 133.35 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -750,7 +743,6 @@
 	)
 	(label "TUNING-LINES.RX-2"
 		(at 133.35 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -761,7 +753,6 @@
 	)
 	(label "DRV.CURRENT"
 		(at 110.49 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -772,7 +763,6 @@
 	)
 	(label "DB-DRV.CURRENT"
 		(at 158.75 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -783,7 +773,6 @@
 	)
 	(label "TUNING-LINES.SWCLK"
 		(at 133.35 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -794,7 +783,6 @@
 	)
 	(label "DB-TUNING-LINES.SWCLK"
 		(at 158.75 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -805,7 +793,6 @@
 	)
 	(label "DB-TUNING-LINES.NRST"
 		(at 158.75 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2158,6 +2145,10 @@
 	(sheet
 		(at 209.55 50.8)
 		(size 63.5 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2187,33 +2178,33 @@
 		)
 		(pin "DB-TUNING-LINES{TX-2 RX-2 SWDIO SWCLK NRST TRACESWO}" input
 			(at 209.55 76.2 180)
+			(uuid "62e85774-66d6-46f7-b3b7-0c983c6e7c65")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "62e85774-66d6-46f7-b3b7-0c983c6e7c65")
 		)
 		(pin "GND" input
 			(at 209.55 111.76 180)
+			(uuid "88003843-e29d-4779-9975-7fc149df7e8b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "88003843-e29d-4779-9975-7fc149df7e8b")
 		)
 		(pin "DB-DRV{IN1 IN2 VREF CURRENT}" bidirectional
 			(at 209.55 88.9 180)
+			(uuid "f17becde-0f82-451b-bcc4-7d420b42a379")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f17becde-0f82-451b-bcc4-7d420b42a379")
 		)
 		(instances
 			(project "mainBoard"
@@ -2226,6 +2217,10 @@
 	(sheet
 		(at 31.75 50.8)
 		(size 63.5 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2255,33 +2250,33 @@
 		)
 		(pin "GND" input
 			(at 95.25 111.76 0)
+			(uuid "d9c94d59-43a1-440c-89cf-54b8c3415741")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d9c94d59-43a1-440c-89cf-54b8c3415741")
 		)
 		(pin "DRV{IN1 IN2 VREF CURRENT}" bidirectional
 			(at 95.25 88.9 0)
+			(uuid "e0b068c7-a8de-4909-a07f-bec52452e88e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e0b068c7-a8de-4909-a07f-bec52452e88e")
 		)
 		(pin "TUNING-LINES{TX-2 RX-2 SWDIO SWCLK NRST TRACESWO}" input
 			(at 95.25 76.2 0)
+			(uuid "57dfeb27-16aa-4dca-a32c-46dc43e93cb2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "57dfeb27-16aa-4dca-a32c-46dc43e93cb2")
 		)
 		(instances
 			(project "mainBoard"
@@ -2296,4 +2291,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

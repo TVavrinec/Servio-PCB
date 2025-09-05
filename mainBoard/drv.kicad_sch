@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "396fc65a-7283-4c91-8f77-43d36cb5a959")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,17 +76,6 @@
 			)
 			(symbol "Conn_01x01_1_1"
 				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -1.27)
 					(stroke
@@ -93,6 +84,17 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -114,9 +116,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -189,7 +194,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -201,7 +206,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -250,9 +255,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -371,6 +379,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "RKL-MotorDrivers:DRV8251ADDAR"
 			(exclude_from_sim no)
@@ -433,17 +442,17 @@
 				)
 			)
 			(symbol "DRV8251ADDAR_1_1"
-				(pin output line
-					(at -10.16 -15.24 0)
+				(pin power_in line
+					(at -10.16 0 0)
 					(length 2.54)
-					(name "IPROPI"
+					(name "VM"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -505,35 +514,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -10.16 0 0)
+				(pin output line
+					(at -10.16 -15.24 0)
 					(length 2.54)
-					(name "VM"
+					(name "IPROPI"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "OUT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -559,6 +550,43 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 2.54 -19.05 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_out line
 					(at 8.89 -7.62 180)
 					(length 2.54)
@@ -577,25 +605,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 2.54 -19.05 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -948,7 +959,6 @@
 	)
 	(label "DRV.CURRENT"
 		(at 152.4 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -959,7 +969,6 @@
 	)
 	(label "DRV.IN2"
 		(at 152.4 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -970,7 +979,6 @@
 	)
 	(label "DRV.IN1"
 		(at 152.4 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -981,7 +989,6 @@
 	)
 	(label "DRV.VREF"
 		(at 152.4 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -993,7 +1000,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 187.96 101.6 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1005,7 +1011,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 101.6 86.36 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1017,7 +1022,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 76.2 86.36 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1029,7 +1033,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 203.2 95.25 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1041,7 +1044,6 @@
 	(hierarchical_label "DRV{IN1 IN2 VREF CURRENT}"
 		(shape bidirectional)
 		(at 147.32 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1053,7 +1055,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 114.3 86.36 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1065,7 +1066,6 @@
 	(hierarchical_label "VCC"
 		(shape input)
 		(at 73.66 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1077,7 +1077,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 180.34 101.6 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1089,7 +1088,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 88.9 86.36 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
