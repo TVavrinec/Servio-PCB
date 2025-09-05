@@ -18409,6 +18409,26 @@
 		)
 	)
 	(gr_line
+		(start 105.43 79.77)
+		(end 105.42 80.48)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "33ac81a4-b91c-40dd-ab1c-e2c73f8d8bca")
+	)
+	(gr_line
+		(start 105.66 70.09)
+		(end 106.18 69.61)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f9b33313-46b8-4a64-a7c9-194e82d23484")
+	)
+	(gr_line
 		(start 106.625 83.595)
 		(end 94.625 83.595)
 		(stroke
@@ -18990,6 +19010,18 @@
 			(justify right)
 		)
 	)
+	(gr_text "M1"
+		(at 98.3 81.34 0)
+		(layer "F.SilkS")
+		(uuid "1dcdaa57-81a0-48fe-a28b-c25d8d6797cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "NRST"
 		(at 147.6 96.3 90)
 		(layer "F.SilkS")
@@ -19278,6 +19310,18 @@
 			(justify right)
 		)
 	)
+	(gr_text "B"
+		(at 107.06 66.84 90)
+		(layer "F.SilkS")
+		(uuid "60ab837d-26ac-4a9d-9972-f71793d30c62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "DRV.IN1"
 		(at 133.8 82.6 0)
 		(layer "F.SilkS")
@@ -19348,6 +19392,18 @@
 				(thickness 0.15)
 			)
 			(justify right)
+		)
+	)
+	(gr_text "M2"
+		(at 105.95 79.92 90)
+		(layer "F.SilkS")
+		(uuid "708f4840-d4bf-42d7-80a7-531ee1dd5301")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "GND"
@@ -19504,6 +19560,18 @@
 				(thickness 0.15)
 			)
 			(justify right)
+		)
+	)
+	(gr_text "3V"
+		(at 103.84 70.79 0)
+		(layer "F.SilkS")
+		(uuid "9cd970de-11ff-4b18-b70b-d1a4b2448332")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "RX"
@@ -19758,6 +19826,18 @@
 			(justify right)
 		)
 	)
+	(gr_text "1"
+		(at 106.32 80.24 90)
+		(layer "B.SilkS")
+		(uuid "38819181-3dba-45c8-8072-40119d930086")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Servio DebugBoard V1.0.0"
 		(at 191 68 0)
 		(layer "B.SilkS")
@@ -19767,6 +19847,18 @@
 				(size 1.5 1.5)
 				(thickness 0.3)
 				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "5"
+		(at 106.32 69.71 90)
+		(layer "B.SilkS")
+		(uuid "eef60f30-c0ab-4165-94a7-9494c660466d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom mirror)
 		)
